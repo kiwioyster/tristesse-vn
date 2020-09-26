@@ -1,0 +1,6 @@
+<div *ngIf="data" [ngClass]="{ 'text-box': true, 'text-box--hide': hide }">
+  <h1 class="speaker">{{ data.speaker }}</h1>
+  <p class="text">
+    {{ textToShow }}
+  </p>
+</div>

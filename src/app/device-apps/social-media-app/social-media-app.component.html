@@ -1,0 +1,28 @@
+<div class="header">
+  <mat-icon>menu</mat-icon>
+  <h1 class="header-text">News Feed</h1>
+</div>
+<drag-scroll class="scrollable-feed">
+  <div
+    drag-scroll-item
+    class="feed-item"
+    *ngFor="let feed of appData.socialPosts"
+  >
+    <img
+      class="feed-profile-img"
+      [src]="'assets/social/' + feed.posterImg + '.png'"
+    />
+    <h2 class="feed-user-name">{{ feed.poster }}</h2>
+    <div class="feed-body-top"></div>
+    <div class="feed-body-bottom"></div>
+    <img
+      *ngIf="feed.bodyImg"
+      class="feed-img"
+      [src]="'assets/social/' + feed.bodyImg + '.png'"
+    />
+    <div class="feed-body-social">
+      {{ feed.likes }} <mat-icon>favorite</mat-icon> {{ feed.comments }}
+      <mat-icon>chat</mat-icon>
+    </div>
+  </div>
+</drag-scroll>

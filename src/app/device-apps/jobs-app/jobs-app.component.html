@@ -1,0 +1,25 @@
+<div class="header">
+  <img class="app-icon-img" src="assets/app-icons/JobFinda.png" />
+  <span class="header-text">Job Finda</span>
+  <span class="header-subtext">Sign In / Register</span>
+</div>
+<div class="nav-bar">
+  <div class="nav-item">Job Search</div>
+  <div class="nav-item">Profile</div>
+  <div class="nav-item">Exit</div>
+  <div class="search-bar-bg">
+    <div class="search-bar">
+      <mat-icon>search</mat-icon>
+    </div>
+  </div>
+</div>
+<div class="jobs">
+  <div class="job-item" *ngFor="let job of appData.jobs">
+    <h2 class="job-title">{{ job.title }}<br />{{ job.company }}</h2>
+    <button *ngIf="!job.applied" (click)="apply(job)">Apply Now</button>
+    <button *ngIf="job.applied" class="applied-btn">
+      <mat-icon>check</mat-icon> Applied
+    </button>
+    <p class="job-body">{{ job.body }}</p>
+  </div>
+</div>

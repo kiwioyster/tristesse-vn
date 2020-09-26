@@ -1,0 +1,14 @@
+$accent-pink: #e58c8a;
+$accent-red: #e63946;
+$white: #f1faee;
+$light-blue: #a8dadc;
+$med-blue: #457b9d;
+$dark-blue: #1d3557;
+$dark-gray: #1e1e24;
+$black: #0b0a07;
+
+@mixin img-center($y-offset) {
+  left: 50%;
+  transform: translate(-50%, $y-offset);
+  position: fixed;
+}

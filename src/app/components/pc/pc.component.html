@@ -1,0 +1,41 @@
+<!-- <button (click)="advStory(story)">pc works!</button> -->
+<div
+  *ngIf="showPc"
+  [ngClass]="{ pc: true, 'pc--fade-out': fadingOut, 'pc--fade-in': fadingIn }"
+>
+  <div
+    class="pc-frame"
+    [ngStyle]="{ 'background-image': 'url(assets/PC.png)' }"
+  ></div>
+  <div class="pc-desktop">
+    <ng-container *ngIf="!openedApp">
+      <ng-container *ngFor="let app of appsData">
+        <app-app-icon
+          [app]="app"
+          [isPc]="true"
+          (advStory)="advStory(story)"
+          (openApp)="openApp($event, 'pc')"
+        ></app-app-icon>
+      </ng-container>
+    </ng-container>
+    <ng-container *ngIf="openedApp" [ngSwitch]="openedApp.app.name">
+      <app-email-app
+        *ngSwitchCase="appName.Tmail"
+        [device]="openedApp.device"
+        [appData]="openedApp.app"
+        (exit)="exit()"
+      ></app-email-app>
+      <app-jobs-app
+        *ngSwitchCase="appName.JobFinda"
+        [appData]="openedApp.app"
+        (exit)="exit()"
+      ></app-jobs-app>
+    </ng-container>
+  </div>
+  <div class="pc-taskbar">
+    <mat-icon>view_carousel</mat-icon>
+    <mat-icon class="small">volume_up</mat-icon>
+    <mat-icon class="small">keyboard_arrow_down</mat-icon>
+    <span class="small">{{ time }}</span>
+  </div>
+</div>

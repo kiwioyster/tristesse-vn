@@ -1,0 +1,334 @@
+{
+  "sequences": [
+    {
+      "beat": [
+        {
+          "messenger": {
+            "time": "12:12",
+            "on": true,
+            "msg": [{ "online": true, "body": "yo i work", "sender": "them" }]
+          }
+        },
+        {
+          "bgm": { "name": "main", "fadeTime": 5 },
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "i work again, see, i work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, see",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "bgm": { "name": "", "fadeTime": 5 },
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "i work again, see, i work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, seei work again, see",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": []
+          },
+          "choice": [
+            {
+              "id": "1",
+              "text": "Mmmm I can see that"
+            },
+            {
+              "id": "2",
+              "text": "Oh shit im sorry"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "choicePath": "2",
+      "beat": [
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              { "online": true, "body": "Oh shit im sorry", "sender": "you" }
+            ]
+          }
+        },
+        {
+          "phone": {
+            "on": true,
+            "inCall": true
+          }
+        }
+      ]
+    },
+    {
+      "choicePath": "1",
+      "beat": [
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              { "online": true, "body": "Mmmm I can see that", "sender": "you" }
+            ]
+          }
+        },
+        {
+          "messenger": {
+            "on": false,
+            "msg": []
+          },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "asdfasdf asdf asdf asdfasdfas dfa asdfasdf asdf asdf asdfasdfas dfaasdfasdf asdf asdf asdfasdfas dfaasdfasdf asdf asdf asdfasdfas dfaasdfasdf asdf asdf asdfasdfas dfaasd"
+          },
+          "pc": {
+            "on": true,
+            "effects": "fade",
+            "openApp": "JobFinda",
+            "apps": [
+              { "name": "Scream" },
+              {
+                "name": "JobFinda",
+                "jobs": [
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  }
+                ]
+              },
+
+              {
+                "name": "Tmail",
+                "emails": [
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  }
+                ]
+              }
+            ]
+          },
+          "bg": { "path": "assets/Bedroom.png" },
+          "fg": { "path": "assets/Tris-down-sad.png" }
+        },
+        {
+          "pc": {
+            "on": false,
+            "effects": "cut"
+          },
+          "phone": {
+            "on": true,
+            "locked": true,
+            "notification": {
+              "title": "Title",
+              "alert": "14 Missed Calls",
+              "when": "3 Hours Ago",
+              "type": "missed-call"
+            }
+          }
+        },
+        {
+          "bg": { "path": "", "effects": "fade" },
+          "fg": { "path": "", "effects": "fade" },
+          "phone": {
+            "on": true,
+            "openApp": "Facehook",
+            "apps": [
+              {
+                "name": "Facehook",
+                "socialPosts": [
+                  {
+                    "poster": "Will",
+                    "posterImg": "Tris-down-sad",
+                    "bodyImg": "Bedroom",
+                    "likes": 15,
+                    "comments": 2
+                  },
+                  {
+                    "poster": "Will",
+                    "posterImg": "",
+                    "bodyImg": "",
+                    "likes": 5,
+                    "comments": 0
+                  },
+                  {
+                    "poster": "Will",
+                    "posterImg": "",
+                    "bodyImg": "",
+                    "likes": 0,
+                    "comments": 0
+                  },
+                  {
+                    "poster": "Will",
+                    "posterImg": "",
+                    "bodyImg": "",
+                    "likes": 0,
+                    "comments": 1
+                  }
+                ]
+              },
+              {
+                "name": "Tmail",
+                "emails": [
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  }
+                ]
+              },
+              { "name": "Messenger" }
+            ]
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Choice 1 - By the same illusion which lifts the horizon of the sea to the level "
+            },
+            {
+              "text": "Choice 2 - By the same illusion which lifts the horizon of the sea to the level "
+            }
+          ],
+          "phone": {
+            "on": false
+          }
+        },
+        {
+          "bg": { "path": "assets/Nightstreet.png", "effects": "fade" }
+        },
+        {
+          "bgm": { "name": "", "fadeTime": 5 },
+          "fg": { "path": "assets/Tris-down-sad.png", "effects": "fade" },
+          "text": {
+            "body": "asdfasdf asdf asdf asdfasd"
+          }
+        },
+        {
+          "choice": [
+            { "id": "3", "text": "chose me im 3" },
+            { "id": "4", "text": "no, pick me, im 4" }
+          ]
+        }
+      ]
+    },
+    {
+      "choicePath": "4",
+      "beat": [{ "bg": { "path": "assets/Bedroom.png" } }]
+    },
+    {
+      "choicePath": "3",
+      "beat": [
+        {
+          "sfx": "im sfx"
+        }
+      ]
+    }
+  ]
+}

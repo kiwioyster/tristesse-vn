@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.debugger {
+  color: white;
+  text-shadow: 0 0 3px black;
+  font-size: 10px;
+  position: fixed;
+}
+.loading-header {
+  margin: 40vh 0;
+  text-align: center;
+  color: white;
+  z-index: 2;
+  position: relative;
+}

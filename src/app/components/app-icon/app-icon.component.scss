@@ -1,0 +1,26 @@
+@import "src/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+.app-icon-ctn {
+  margin: 10px 10px -5px;
+  padding: 5px;
+  width: 50px;
+  cursor: pointer;
+  * {
+    width: 50px;
+  }
+  &--mobile {
+    padding: 0;
+    margin: 26px 13px;
+  }
+}
+.app-icon-img {
+  filter: drop-shadow(1px 1px 4px rgba($black, 0.5));
+}
+.app-icon-title {
+  margin: 0;
+  color: $white;
+  font-size: 9px;
+  text-shadow: 1px 1px 1px $black;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}

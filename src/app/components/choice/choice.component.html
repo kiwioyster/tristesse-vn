@@ -1,0 +1,7 @@
+<div class="choice">
+  <ng-container *ngFor="let choice of choices">
+    <button class="choice-btn" (click)="selected(choice)">
+      {{ choice.text }}
+    </button>
+  </ng-container>
+</div>

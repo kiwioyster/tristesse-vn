@@ -1,0 +1,31 @@
+<div class="header">
+  <img class="header-img" [src]="'assets/social/dp4.png'" />
+  <h1 class="header-name">Will</h1>
+  <p class="header-status">{{ online ? "Online" : "Offline" }}</p>
+</div>
+<drag-scroll #scrollableContent class="scrollable-text">
+  <div
+    drag-scroll-item
+    class="text-item"
+    [ngClass]="{ 'text-item--typing': messenger.typing }"
+    *ngFor="let text of allMsg; let i = index"
+  >
+    <div *ngIf="text.sender === 'them'" class="text-body-them">
+      {{ text.body }}
+    </div>
+    <div *ngIf="text.sender === 'you'" class="text-body-you">
+      {{ text.body }}
+    </div>
+    <div
+      *ngIf="messenger.typing && i === allMsg.length - 1"
+      class="typing text-body-them"
+    >
+      <mat-icon class="icon-1">fiber_manual_record</mat-icon
+      ><mat-icon class="icon-2">fiber_manual_record</mat-icon
+      ><mat-icon class="icon-3">fiber_manual_record</mat-icon>
+    </div>
+  </div>
+</drag-scroll>
+<div class="text-input">
+  <mat-icon>send</mat-icon>
+</div>

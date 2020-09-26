@@ -1,0 +1,25 @@
+@import "src/variables.scss";
+* {
+  color: $white;
+  font-size: 32px;
+}
+
+.wrapper {
+  position: absolute;
+  top: 100%;
+  animation: 65s credits linear infinite;
+  text-align: center;
+  padding: 0 32px;
+  p {
+    margin: 96px 0;
+  }
+}
+
+@keyframes credits {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: -350%;
+  }
+}

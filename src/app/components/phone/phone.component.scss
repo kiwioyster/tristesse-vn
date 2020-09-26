@@ -1,0 +1,122 @@
+@import "src/variables.scss";
+.phone {
+  @include img-center(33px);
+  z-index: 1;
+  transition: all 1s;
+  &--starting-pos {
+    transform: translate(-50%, 100vh);
+  }
+}
+.phone-desktop {
+  height: 337px;
+  width: 232px;
+  background: linear-gradient(135deg, $dark-blue 0%, $med-blue 100%);
+  position: absolute;
+  display: flex;
+  transform: translate(-50%, 89px);
+}
+
+.phone-frame {
+  pointer-events: none;
+  height: 543px;
+  width: 263px;
+  background-size: cover;
+  position: absolute;
+  transform: translate(-50%, 0px);
+}
+
+.mobile-exit-btn {
+  position: fixed;
+  width: 228px;
+  height: 40px;
+  top: 426px;
+  cursor: pointer;
+  transform: translateX(-50%);
+}
+.phone-header {
+  position: fixed;
+  display: grid;
+  top: 67px;
+  left: 24px;
+  color: $white;
+  z-index: 1;
+  grid-template-columns: repeat(3, 16px) 16px;
+  height: 21px;
+  width: 228px;
+  p {
+    font-size: 12px;
+  }
+  > * {
+    height: 14px;
+    width: 14px;
+    font-size: 14px;
+    place-self: center;
+    margin: 0;
+  }
+}
+.lock-screen {
+  position: fixed;
+  background-color: $dark-blue;
+  height: 337px;
+  width: 229px;
+  left: -117px;
+  top: 89px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  color: $white;
+  &--in-call {
+    flex-direction: column;
+    justify-content: space-around;
+    mat-icon {
+      border: 3px solid $accent-pink;
+      color: $accent-pink;
+      border-radius: 50%;
+      font-size: 36px;
+      width: 45px;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+.lock-screen-notification {
+  position: fixed;
+  top: 89px;
+  width: 229px;
+  max-height: 82px;
+  background-color: $light-blue;
+  display: grid;
+  padding: 7px 14px;
+  box-sizing: border-box;
+  grid-template-rows: 1fr 1.2fr auto;
+  grid-template-columns: 22px auto;
+  color: $dark-gray;
+  > * {
+    align-self: center;
+  }
+  p {
+    font-size: 10px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 14px;
+    margin: 2px 0;
+    grid-column: span 2;
+  }
+  .notification-body {
+    grid-column: span 2;
+  }
+  mat-icon {
+    padding: 1px;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+}
+.in-call-dialing {
+  font-size: 16px;
+  text-align: center;
+}

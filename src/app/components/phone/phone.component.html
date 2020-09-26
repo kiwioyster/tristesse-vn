@@ -1,0 +1,64 @@
+<div [ngClass]="{ phone: true, 'phone--starting-pos': starting }">
+  <div class="phone-header">
+    <mat-icon>wifi</mat-icon>
+    <mat-icon>signal_cellular_alt</mat-icon>
+    <mat-icon>battery_full</mat-icon>
+    <p>{{ time }}</p>
+  </div>
+  <div *ngIf="!messengerState" class="phone-desktop">
+    <ng-container *ngIf="!openedApp">
+      <ng-container *ngFor="let app of appsData">
+        <app-app-icon
+          [app]="app"
+          [isPc]="false"
+          (advStory)="advStory(story)"
+          (openApp)="openApp($event, 'phone')"
+        ></app-app-icon>
+      </ng-container>
+    </ng-container>
+    <ng-container *ngIf="openedApp" [ngSwitch]="openedApp.app.name">
+      <app-email-app
+        *ngSwitchCase="appName.Tmail"
+        [device]="openedApp.device"
+        [appData]="openedApp.app"
+      ></app-email-app>
+      <app-social-media-app
+        *ngSwitchCase="appName.Facehook"
+        [appData]="openedApp.app"
+      ></app-social-media-app>
+    </ng-container>
+  </div>
+  <div
+    *ngIf="messengerState || openedApp?.app.name === appName.Messenger"
+    class="phone-desktop"
+  >
+    <app-txt-app [messenger]="messengerState"></app-txt-app>
+  </div>
+  <div class="lock-screen" *ngIf="dataState?.locked">
+    <div *ngIf="dataState?.notification" class="lock-screen-notification">
+      <ng-container [ngSwitch]="dataState.notification.type">
+        <mat-icon *ngSwitchCase="'missed-call'">call_end</mat-icon>
+        <mat-icon *ngSwitchCase="'email'">email</mat-icon>
+        <mat-icon *ngSwitchCase="'text'">chat</mat-icon>
+      </ng-container>
+      <p>
+        {{ dataState.notification.alert }} - {{ dataState.notification.when }}
+      </p>
+      <h2>{{ dataState.notification.title }}</h2>
+
+      <p class="notification-body">{{ dataState.notification.body }}</p>
+    </div>
+    {{ time }}
+  </div>
+  <div *ngIf="dataState?.inCall" class="lock-screen lock-screen--in-call">
+    <div>
+      <p class="in-call-dialing" *ngIf="dataState?.calling">Dialing...</p>
+      Will
+    </div>
+    <mat-icon>call_end</mat-icon>
+  </div>
+  <div
+    class="phone-frame"
+    [ngStyle]="{ 'background-image': 'url(assets/Phone.png)' }"
+  ></div>
+</div>

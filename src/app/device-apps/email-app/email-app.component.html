@@ -1,0 +1,66 @@
+<div *ngIf="device === 'phone'" class="phone">
+  <div class="header">
+    <h1 class="header-text">Inbox</h1>
+
+    <div class="search-bar">
+      <mat-icon>search</mat-icon>
+    </div>
+  </div>
+  <drag-scroll class="scrollable-emails">
+    <div
+      drag-scroll-item
+      class="email-item"
+      *ngFor="let email of appData.emails"
+      (click)="readEmail(email)"
+    >
+      <div class="email-unread-tag" *ngIf="email.unread">
+        <div>New</div>
+      </div>
+      <div class="email-texts">
+        <h2 class="email-sender-title">
+          {{ email.title }}
+        </h2>
+        <h2 class="email-sender-title">
+          {{ email.sender }}
+        </h2>
+        <p class="email-body">{{ email.body }}</p>
+      </div>
+    </div>
+  </drag-scroll>
+</div>
+<div *ngIf="device === 'pc'" class="pc">
+  <div class="side-menu">
+    <div class="menu-title">
+      <img class="app-icon-img" src="assets/app-icons/Tmail.png" />
+      <span>TMail</span>
+    </div>
+    <div class="menu-item">Inbox</div>
+    <div class="menu-item">Drafts</div>
+    <div class="menu-item">Outbox</div>
+    <div class="menu-item">Bin</div>
+    <div class="menu-item">Exit</div>
+  </div>
+  <div class="body">
+    <div class="search-bar">
+      <mat-icon>search</mat-icon>
+    </div>
+    <div
+      class="email-item"
+      *ngFor="let email of appData.emails"
+      (click)="readEmail(email)"
+    >
+      <div class="email-unread-tag" *ngIf="email.unread">
+        <div>New</div>
+      </div>
+      <div class="email-texts">
+        <h2 class="email-sender-title">
+          {{ email.title }}
+        </h2>
+        <h2 class="email-sender-title">
+          {{ email.sender }}
+        </h2>
+        <p class="email-body">{{ email.body }}</p>
+      </div>
+    </div>
+  </div>
+</div>

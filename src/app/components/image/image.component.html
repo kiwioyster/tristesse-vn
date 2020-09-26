@@ -1,0 +1,20 @@
+<ng-container *ngIf="fgToShow">
+  <div
+    [ngClass]="{
+      'fg-image': true,
+      'fg-image--fade-out': fgFadeOut,
+      'fg-image--fade-in': fgFadeIn
+    }"
+    [ngStyle]="{ 'background-image': 'url(' + fgToShow + ')' }"
+  ></div>
+</ng-container>
+<ng-container *ngIf="bgToShow">
+  <div
+    [ngClass]="{
+      'bg-image': true,
+      'bg-image--fade-out': bgFadeOut,
+      'bg-image--fade-in': bgFadeIn
+    }"
+    [ngStyle]="{ 'background-image': 'url(' + bgToShow + ')' }"
+  ></div>
+</ng-container>

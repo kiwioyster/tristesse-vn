@@ -1,0 +1,137 @@
+@import "src/variables.scss";
+
+.header {
+  display: grid;
+  grid-template-columns: 42px auto;
+  grid-template-rows: 60% 40%;
+  background-color: $med-blue;
+  width: 229px;
+  height: 32px;
+  padding: 3px 0;
+}
+.header-img {
+  grid-row-end: span 2;
+  margin: 0;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  background-color: $white;
+  place-self: center;
+}
+.header-name {
+  margin: 0;
+  font-size: 14px;
+  align-self: center;
+}
+.header-status {
+  margin: 0;
+  font-size: 9px;
+  align-self: center;
+}
+.scrollable-text {
+  background-color: $white;
+  height: 307px;
+  cursor: grab;
+  pointer-events: auto !important;
+  &:active {
+    cursor: grabbing;
+  }
+}
+.text-item {
+  display: block !important;
+  margin: 8px;
+  > * {
+    width: 155px;
+    padding: 8px 12px;
+    font-size: 12px;
+    white-space: normal;
+    box-shadow: 1px 1px 4px rgba($black, 0.25);
+  }
+  &:last-child {
+    margin-bottom: 46px;
+    &:not(.text-item--typing) {
+      margin-bottom: 82px;
+    }
+  }
+}
+.text-body-them {
+  background-color: $light-blue;
+}
+.text-body-you {
+  background-color: $med-blue;
+  margin: 0;
+  margin-left: auto;
+}
+.text-input {
+  width: 214px;
+  height: 22px;
+  border-radius: 10px;
+  border: 1px solid $med-blue;
+  position: fixed;
+  bottom: 6px;
+  left: 6px;
+  text-align: end;
+  background-color: $white;
+  mat-icon {
+    font-size: 22px;
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    color: $med-blue;
+  }
+}
+.typing.text-body-them {
+  width: 40px;
+  margin: 8px 0;
+  display: flex;
+  > mat-icon {
+    font-size: 12px;
+    height: 12px;
+    color: $med-blue;
+    &.icon-1 {
+      animation: 0.8s jump-1 ease-out infinite;
+    }
+    &.icon-2 {
+      animation: 0.8s jump-2 ease-out infinite;
+    }
+    &.icon-3 {
+      animation: 0.8s jump-3 ease-out infinite;
+    }
+  }
+  @keyframes jump-1 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes jump-2 {
+    0% {
+      transform: translateY(1px);
+    }
+    25% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(2px);
+    }
+    100% {
+      transform: translateY(1px);
+    }
+  }
+  @keyframes jump-3 {
+    0% {
+      transform: translateY(2px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(2px);
+    }
+  }
+}

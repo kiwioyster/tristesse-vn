@@ -1,0 +1,1559 @@
+{
+  "sequences": [
+    {
+      "beats": [
+        {
+          "choice": [
+            {
+              "text": "Start Game"
+            }
+          ],
+          "intro": true
+        },
+        { "bgm": { "name": "anxiety", "fadeTime": 1 }, "auto": 1300 },
+        {
+          "text": {
+            "body": "I feel happier now. ▽"
+          }
+        },
+        { "auto": 2400 },
+        { "sfx": { "name": "call-vibe", "volume": 0.2 }, "auto": 12800 },
+        {
+          "bg": { "path": "assets/Bedroom-night.png", "effects": "fade" },
+          "fg": { "path": "assets/Tris-smile-creepy.png", "effects": "fade" },
+          "auto": 3600
+        },
+        {
+          "choice": [
+            {
+              "text": "Huh? Did you need something?"
+            },
+            {
+              "text": "Were you watching me sleep?"
+            }
+          ]
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "No. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png", "effects": "fade" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "What do you wanna do today? ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Hmm let's see. ▽"
+          }
+        },
+        {
+          "fg": { "path": "", "effects": "fade" },
+          "bg": { "path": "", "effects": "fade" },
+          "auto": 1300
+        },
+        {
+          "bg": { "path": "assets/PCroom-night.png", "effects": "fade" },
+          "auto": 800
+        },
+        {
+          "text": {
+            "body": "This is freedom. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I can finally do the things that make me happy now. ▽"
+          }
+        },
+        { "auto": 1600 },
+        { "bg": { "path": "", "effects": "fade" }, "auto": 4000 },
+
+        {
+          "text": {
+            "body": "Tris was right. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I feel so relieved. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I can finally rest now. ▽"
+          }
+        },
+        { "auto": 4000 },
+        { "sfx": { "name": "call-vibe", "volume": 0.2 }, "auto": 12800 },
+        {
+          "bg": { "path": "assets/Bedroom-night.png", "effects": "fade" },
+          "fg": { "path": "assets/Tris-smile-creepy.png", "effects": "fade" },
+          "auto": 3600
+        },
+        {
+          "choice": [
+            {
+              "text": "Were you watching me sleep?"
+            },
+            {
+              "text": "Did you need something?"
+            }
+          ]
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "No. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "What do you wanna do today? ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Hmm let's see. ▽"
+          }
+        },
+        {
+          "fg": { "path": "", "effects": "fade" },
+          "bg": { "path": "", "effects": "fade" },
+          "auto": 1300
+        },
+        {
+          "bg": { "path": "assets/PCroom-night.png", "effects": "fade" },
+          "auto": 800
+        },
+        {
+          "text": {
+            "body": "This is freedom. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I can finally do the things that make me happy now. ▽"
+          }
+        },
+        { "auto": 1600 },
+        { "bg": { "path": "", "effects": "fade" }, "auto": 4000 },
+
+        {
+          "text": {
+            "body": "Tris was right. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I feel so relieved. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I can finally rest now. ▽"
+          }
+        },
+        { "auto": 4000 },
+        { "sfx": { "name": "call-vibe", "volume": 0.2 }, "auto": 12800 },
+        {
+          "text": {
+            "body": "Huh. . . ▽"
+          }
+        },
+        {
+          "bg": { "path": "assets/Bedroom-night.png", "effects": "fade" },
+          "fg": { "path": "assets/Tris-smile-creepy.png", "effects": "fade" },
+          "auto": 2400
+        },
+        {
+          "choice": [
+            {
+              "text": "Did you hear something?"
+            }
+          ]
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "No. ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "What do you wanna do today? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Umm I don't know."
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-neutral.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Huh? You feeling okay? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Yeah. Never been better."
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "That's good. ▽"
+          }
+        },
+        {
+          "fg": { "path": "", "effects": "fade" },
+          "bg": { "path": "", "effects": "fade" },
+          "auto": 4000
+        },
+        {
+          "bgm": { "name": "", "fadeTime": 3 },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Hey! Did you fall asleep in front of your computer again? ▽"
+          }
+        },
+        { "auto": 2400 },
+        {
+          "bg": { "path": "assets/PCroom-night.png", "effects": "fade" },
+          "fg": { "path": "assets/Tris-neutral.png", "effects": "fade" },
+          "auto": 1300
+        },
+        { "text": { "body": "The past few days have been a blur. ▽" } },
+        { "text": { "body": "I can't help but feel something is missing. ▽" } },
+        { "choice": [{ "text": "What time is it?" }] },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "It's dinner time. I got you takeaways in the kitchen. ▽"
+          }
+        },
+        { "fg": { "path": "", "effects": "fade" } },
+        { "auto": 2400 },
+        {
+          "phone": {
+            "on": true,
+            "locked": true,
+            "time": "21:30",
+            "notification": {
+              "type": "missed-call",
+              "alert": "8 Missed calls",
+              "title": "Will",
+              "when": "3 Hours ago"
+            }
+          },
+          "auto": 3200
+        },
+        {
+          "bgm": { "name": "main" },
+          "text": { "body": "I wonder what Will thinks of me. ▽" }
+        },
+        {
+          "text": {
+            "body": "Am I that weird guy with no friends who needs to be pitied? ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I thought if I ignored Will he'd go away. I thought if I ignored him I'd finally be able to be myself. I thought I'd be happy. ▽"
+          }
+        },
+        { "bg": { "path": "", "effects": "fade" } },
+        {
+          "intro": true,
+          "bgm": { "name": "anxiety", "fadeTime": 0.6 },
+          "text": {
+            "speaker": "Tutorial",
+            "body": "This is a short tutorial. Use ENTER or SPACE key to progress the story. ▽"
+          }
+        },
+        {
+          "intro": true,
+          "phone": { "on": true, "time": "now" },
+          "text": {
+            "speaker": "Tutorial",
+            "body": "When available, use your mouse to open apps on your phone or computer. ▽"
+          }
+        },
+        {
+          "phone": { "on": false, "time": "now" },
+          "text": {
+            "speaker": "Tutorial",
+            "body": "That's the end of the tutorial. Press ENTER or SPACE to start the story. ▽"
+          },
+          "intro": true
+        },
+        {
+          "auto": 3600,
+          "bgm": { "name": "", "fadeTime": 2 }
+        },
+        { "text": { "body": "Ugh. . . ▽" } },
+        {
+          "bg": { "path": "assets/Bedroom.png", "effects": "fade" },
+          "auto": 800
+        },
+        {
+          "text": { "body": "What time is it? I must have slept in again. ▽" }
+        },
+        { "phone": { "on": true, "locked": true, "time": "11:24" } },
+        {
+          "phone": { "on": false, "locked": true, "time": "11:24" },
+          "bgm": { "name": "betterdays" }
+        },
+        {
+          "text": { "body": "Sigh. . . It's probably time to get up. ▽" }
+        },
+        {
+          "sfx": { "name": "door-knock" },
+          "auto": 1600
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png", "effects": "fade" },
+          "auto": 1600
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Girl",
+            "body": "Morning! I thought I heard you waking up. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "body": "This is my girlfriend Tristesse. We live together in this small place. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "We've been together for as long as I can remember. ▽"
+          }
+        },
+        {
+          "text": { "body": "She's always been a part of my life. ▽" }
+        },
+        {
+          "text": {
+            "body": "But recently I don't know how I feel about us anymore. . . ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Morning Tris."
+            },
+            {
+              "text": ". . ."
+            }
+          ]
+        },
+        {
+          "text": { "speaker": "Tristesse ", "body": "Did you sleep well? ▽" }
+        },
+        {
+          "text": {
+            "body": "Recently I've been feeling more tired than usual. . . No matter how much I sleep. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "How did I end up like this? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Not really. . ."
+            },
+            {
+              "text": ". . ."
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-neutral.png" },
+          "text": { "speaker": "Tristesse ", "body": "You feeling okay? ▽" }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse ",
+            "body": "You are still thinking about that huh? ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Tristesse ",
+            "body": "Hey don't worry about it! ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse ",
+            "body": "That was a dead end job anyway. Nothing of value was lost. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": { "speaker": "Tristesse ", "body": "Right? ▽" }
+        },
+        {
+          "choice": [
+            {
+              "text": "Yea. Thanks. . ."
+            },
+            {
+              "text": "Maybe you are right. . ."
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-creepy.png" },
+          "text": {
+            "speaker": "Tristesse ",
+            "body": "Look on the bright side. More time for us. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "speaker": "Tristesse ",
+            "body": "Come on get outta bed. I'll go order us some food. ▽"
+          }
+        },
+        {
+          "fg": { "path": "", "effects": "fade" }
+        },
+        {
+          "text": {
+            "body": "She's always so cheerful. I'm too scared to let her go. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "She's the closest thing to a family I have left. . . ▽"
+          }
+        },
+        { "text": { "body": "Without her. I'd have nothing. ▽" } },
+        { "sfx": { "name": "text-notification" }, "auto": 800 },
+        {
+          "phone": {
+            "on": true,
+            "locked": true,
+            "time": "11:24",
+            "notification": {
+              "type": "email",
+              "alert": "14 New emails",
+              "title": "Your job application status",
+              "body": "Thank you for taking the time to apply. Unfortunately you did not meet the criteria...",
+              "when": "Just now"
+            }
+          }
+        },
+        {
+          "phone": {
+            "on": false,
+            "locked": true,
+            "time": "11:24",
+            "notification": {
+              "type": "email",
+              "alert": "14 New emails",
+              "title": "Your job application status",
+              "body": "Thank you for taking the time to apply. Unfortunately you did not meet the criteria...",
+              "when": "Just now"
+            }
+          },
+          "auto": 800
+        },
+
+        { "text": { "body": "Sigh. . . ▽" } },
+        { "bg": { "path": "", "effects": "fade" }, "auto": 3200 },
+        {
+          "bg": { "path": "assets/PCroom.png", "effects": "fade" },
+          "auto": 1600
+        },
+        {
+          "pc": {
+            "on": true,
+            "time": "13:05",
+            "effects": "fade",
+            "openApp": "JobFinda",
+            "apps": [
+              {
+                "name": "JobFinda",
+                "jobs": [
+                  {
+                    "title": "Entry Position Available",
+                    "company": "TT Recruiters",
+                    "body": "Looking for someone with passion and a can do attitude. Minimum 3 years experience. . .",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  },
+                  {
+                    "title": "Email title",
+                    "company": "Sender",
+                    "body": "yo",
+                    "applied": false
+                  }
+                ]
+              },
+              {
+                "name": "Tmail",
+                "emails": [
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  },
+                  {
+                    "title": "Email title",
+                    "sender": "Sender",
+                    "body": "yo",
+                    "unread": true
+                  }
+                ]
+              },
+              { "name": "Netbrix" },
+              { "name": "Scream" }
+            ]
+          },
+          "text": {
+            "body": "Maybe I should apply for some jobs and read my emails. ▽"
+          }
+        },
+        { "text": { "body": "What's the point. ▽" } },
+        {
+          "pc": {
+            "on": false
+          },
+          "auto": 1600
+        },
+        {
+          "phone": {
+            "on": true,
+            "openApp": "Facehook",
+            "time": "13:06",
+            "apps": [
+              {
+                "name": "Facehook",
+                "socialPosts": [
+                  {
+                    "poster": "Will",
+                    "posterImg": "dp3",
+                    "bodyImg": "large-group",
+                    "likes": 15,
+                    "comments": 2
+                  },
+                  {
+                    "poster": "Mick",
+                    "posterImg": "dp1",
+                    "bodyImg": "",
+                    "likes": 6,
+                    "comments": 11
+                  },
+                  {
+                    "poster": "Will",
+                    "posterImg": "dp3",
+                    "bodyImg": "two-outdoor",
+                    "likes": 29,
+                    "comments": 9
+                  },
+                  {
+                    "poster": "Ash",
+                    "posterImg": "dp2",
+                    "bodyImg": "beach",
+                    "likes": 7,
+                    "comments": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "auto": 2400
+        },
+        { "text": { "body": "My old friends from highschool. ▽" } },
+        { "text": { "body": "They all look so happy. ▽" } },
+        {
+          "text": { "body": "I haven't talked to most of them in so long. ▽" }
+        },
+        { "text": { "body": "I don't know why. We just drifted apart. ▽" } },
+        {
+          "text": {
+            "body": "Their lives seems to get better and better but mine gets worse. . . ▽"
+          }
+        },
+        { "text": { "body": "How did I end up here. Why me. . . ▽" } },
+        {
+          "phone": {
+            "on": false
+          },
+          "auto": 2400
+        },
+        { "text": { "body": "I wanna reconnect with them. ▽" } },
+        {
+          "text": { "body": "But I'm afraid they'll think I'm a loser. . . ▽" }
+        },
+        { "auto": 800 },
+        { "sfx": { "name": "text-notification" }, "auto": 800 },
+        {
+          "messenger": {
+            "time": "13:12",
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "Hey, heard you lost your job. You job hunting now?",
+                "sender": "them"
+              }
+            ]
+          },
+          "auto": 2400
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              { "online": true, "body": "How's it going?", "sender": "them" }
+            ]
+          }
+        },
+        { "text": { "body": "Will is a good friend from highschool. ▽" } },
+        {
+          "text": {
+            "body": "He's the only person that still talks to me occasionally. ▽"
+          }
+        },
+
+        {
+          "choice": [
+            {
+              "id": "Terrible",
+              "text": "Terrible"
+            },
+            {
+              "id": "All rejection emails",
+              "text": "All rejection emails"
+            }
+          ]
+        },
+        { "auto": 1600 },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "Haha yea with your lack of experience",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "You must be free all the time now",
+                "sender": "them"
+              }
+            ]
+          },
+          "auto": 1600
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "Good time to upskill yourself and what not",
+                "sender": "them"
+              }
+            ]
+          },
+          "auto": 2400
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "Let's catch up this weekend. Finally got some free time from work",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "Haven't seen you since the funeral",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "text": {
+            "body": "Will was voted most likely to succeed in highschool and he's definitely living up to that expectation. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I've always envied him. He's so good with people and so smart. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "It makes me nervous about seeing him after so long. . . ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Will is that type of guy to give a bunch of life advice. It's annoying at times but maybe seeing him again he can help me to pull myself together. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "id": "Um, sure",
+              "text": "Um, sure"
+            },
+            {
+              "id": "Maybe, what time?",
+              "text": "Maybe, what time?"
+            }
+          ]
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "How about Saturday at 6? There's this restaurant I wanna try. I hear they make a mean steak",
+                "sender": "them"
+              }
+            ]
+          },
+          "auto": 2400
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "I might invite a few of our friends from highschool, you cool with that?",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "text": {
+            "body": "Ugh. I don't know how to act if lots of people show up. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "But it could be a chance for me to reconnect with everyone. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "id": "Okay",
+              "text": "Okay"
+            }
+          ]
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "Can't wait to see you. Hang in there man!",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "Gotta go now",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "messenger": {
+            "on": false
+          },
+          "auto": 1600
+        },
+        {
+          "text": {
+            "body": "I need to be careful not to embarrass myself at these big meet ups. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Most of my old friends are doing so well now. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "They could really help me get things back on track ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "But. . . ▽"
+          }
+        },
+        {
+          "sfx": { "name": "door-knock" },
+          "auto": 1600
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png", "effects": "fade" },
+          "auto": 1600
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Girl",
+            "body": "Hey! Whatcha doing? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Just applying for jobs"
+            },
+            {
+              "text": "Nothing much"
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-neutral.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "You look stressed out! ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-neutral.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Doing all that boring stuff again huh? ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-creepy.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Forget about all that. Let's do something fun. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Yea"
+            }
+          ]
+        },
+        {
+          "bg": { "path": "", "effects": "fade" },
+          "fg": { "path": "", "effects": "fade" },
+          "auto": 1600
+        },
+
+        {
+          "text": {
+            "body": "I'm glad she's always here when I need her. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Sometimes we can watch movies or game together hours on end. . . ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "It helps take my mind off things. ▽"
+          }
+        },
+        { "auto": 2400 },
+        {
+          "bg": { "path": "assets/Bedroom.png", "effects": "fade" },
+          "fg": { "path": "assets/Tris-smile.png", "effects": "fade" },
+          "auto": 1600
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Morning! Did you sleep well? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Sort of."
+            },
+            {
+              "text": "I'm still feeling tired."
+            }
+          ]
+        },
+        { "auto": 800 },
+        {
+          "fg": { "path": "assets/Tris-sad.png" },
+          "auto": 400
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "You sound upset. Is something wrong? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "I was talking to Will yesterday. He always sounds so happy."
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-crossed.png" }
+        },
+        {
+          "text": {
+            "body": "Tris doesn't like Will very much. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "She thinks he's cocky and looks down on everyone. ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "It will tire you out to constantly compare yourself with others. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "If I was successful like Will. I'd be happier"
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-sad.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Are you sure YOU want that? ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Or is it some expectation you are trying to live up to? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Maybe you are right. . ."
+            },
+            {
+              "text": "What do you mean?"
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "If you wanna be happy then you need to be honest to yourself. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "She has a point. Every since I was little my mother would set high expectations for me. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "She compared me to other kids and always told me what to do. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "She worked a lot of jobs to make ends meet. So she was obsessed with pushing me to achieve more. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "After she passed away maybe I inherited her obsession. . . ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "You don't need to prove anything to anyone. ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "As long as you live the way that you want. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "I'll be here to cheer you up. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "body": "I'm glad Tris is here and I'm not alone. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Thanks Tris"
+            }
+          ]
+        },
+        { "auto": 400 },
+        { "fg": { "path": "assets/Tris-smile-eyes.png" }, "auto": 1600 },
+        {
+          "fg": { "path": "assets/Tris-gasp.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Oh my god. I just remembered! ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Do you know what day it is today? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Monday?"
+            },
+            {
+              "text": "Um. . . No idea"
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "No idiot! It's your birthday! ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Oh right. . .  ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I completely forgot. Without anyone to celebrate it with I don't keep track of it anymore.  ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "You know what? How about I make you lunch today haha! ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Uh, you? Cooking?"
+            },
+            {
+              "text": "Oh no. What are you going to make?"
+            }
+          ]
+        },
+        { "auto": 400 },
+        {
+          "fg": { "path": "assets/Tris-challenge.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Oh screw you! ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "I'll make you eat those words! ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Haha just kidding."
+            }
+          ]
+        },
+        { "auto": 400 },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" }
+        },
+        {
+          "bg": { "path": "", "effects": "fade" },
+          "fg": { "path": "", "effects": "fade" },
+          "auto": 1600
+        },
+        {
+          "text": {
+            "body": "I spent the rest of the day with Tris. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "It was a good day. ▽"
+          }
+        },
+        { "auto": 4000 },
+        {
+          "text": {
+            "body": "I've been thinking about what Tris said last week. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "It's time for me to make a change. ▽"
+          }
+        },
+        {
+          "bg": { "path": "assets/Bedroom.png", "effects": "fade" },
+          "auto": 800
+        },
+        {
+          "text": {
+            "body": "I haven't done anything but spend all of my time with her. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Somehow I feel a weight lifted off my shoulders. ▽"
+          }
+        },
+        { "auto": 1300 },
+        {
+          "fg": { "path": "assets/Tris-smile.png", "effects": "fade" },
+          "auto": 800
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Morning! ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "You look energized today! ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Really?"
+            },
+            {
+              "text": "How can you tell?"
+            }
+          ]
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "I mean you are actually smiling for once. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-smile-eyes.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "A phenomenon that hasn't been observed since the ice ages! ▽"
+          }
+        },
+
+        {
+          "choice": [
+            {
+              "text": "ha HAA! Very funny"
+            },
+            {
+              "text": "Nice one"
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Quit the sarcasm. You free today right? Let's do something fun. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Sounds good"
+            }
+          ]
+        },
+        {
+          "bg": { "path": "", "effects": "fade" },
+          "fg": { "path": "", "effects": "fade" },
+          "auto": 2400
+        },
+        {
+          "text": {
+            "body": "It's days like these when I feel like she is all I need in this world. ▽"
+          }
+        },
+        {
+          "bg": { "path": "assets/PCroom-night.png", "effects": "fade" },
+          "auto": 1300
+        },
+        {
+          "fg": { "path": "assets/Tris-shy.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "You know. Even though we've known each other for years now I still feel like we are getting close every day. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "I know what you mean"
+            },
+            {
+              "text": "I feel that way as well"
+            }
+          ]
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Some days I feel like we are all we need in this world. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": ". . ."
+            },
+            {
+              "text": "I feel the same"
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-smile.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Okay okay. Enough of this kind. ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "That was getting too cheesy. ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Wait. What day is it today?"
+            }
+          ]
+        },
+        {
+          "fg": { "path": "assets/Tris-neutral.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Um. Saturday. ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Why? ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "Shit! I promised to meet Will at 6. What time is it now?"
+            }
+          ]
+        },
+        { "auto": 400 },
+        {
+          "fg": { "path": "assets/Tris-crossed.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "It's 7 now. ▽"
+          }
+        },
+        { "text": { "body": "Oh no I'm late! ▽" } },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Don't tell me you are ditching me to meet up with Will. ▽"
+          }
+        },
+        {
+          "fg": { "path": "assets/Tris-crossed-angry.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Right after you said how much you need me?! ▽"
+          }
+        },
+        {
+          "choice": [
+            {
+              "text": "I wasn't planning on going!"
+            },
+            {
+              "text": "Why are you so worked up over this?!"
+            }
+          ]
+        },
+        { "auto": 800 },
+        {
+          "fg": { "path": "assets/Tris-uncaring.png" },
+          "text": {
+            "speaker": "Tristesse",
+            "body": "Whatever. ▽"
+          }
+        },
+        {
+          "text": {
+            "speaker": "Tristesse",
+            "body": "You do what you want. I'm outta here."
+          }
+        },
+        { "fg": { "path": "", "effects": "fade" }, "auto": 2400 },
+        {
+          "text": {
+            "body": "Ugh. She can be so hot headed sometimes. . . ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "Sigh. . . Am I a good person? ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "All I do is take. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I never appreciate the things she does for me. ▽"
+          }
+        },
+        { "auto": 1300 },
+        {
+          "text": {
+            "body": "Maybe I should go apologize to her. . . ▽"
+          }
+        },
+        { "auto": 2400 },
+        { "bg": { "path": "", "effects": "fade" }, "auto": 4000 },
+        {
+          "sfx": { "name": "text-notification" },
+          "auto": 1600
+        },
+        {
+          "bg": { "path": "assets/Bedroom.png", "effects": "fade" },
+          "text": {
+            "body": "Who is that so early in the morning. ▽"
+          }
+        },
+        {
+          "messenger": {
+            "time": "08:56",
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "What the hell man!",
+                "sender": "them",
+                "newLine": true
+              }
+            ]
+          },
+          "auto": 2400
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "You didn't show yesterday.",
+                "sender": "them"
+              }
+            ]
+          },
+          "auto": 2400
+        },
+        {
+          "messenger": {
+            "on": true,
+            "msg": [
+              {
+                "online": true,
+                "body": "I got all our old friends together. We even go you a fucking cake!",
+                "sender": "them"
+              }
+            ]
+          }
+        },
+        {
+          "text": {
+            "body": "Oh no. . . ▽"
+          },
+          "messenger": {
+            "on": false,
+            "msg": []
+          }
+        },
+        { "bgm": { "name": "", "fadeTime": 4 } },
+        { "auto": 1300 },
+        {
+          "bg": { "path": "", "effects": "fade" },
+          "auto": 3200
+        },
+        {
+          "text": {
+            "body": "Will must hate me now. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "But Tris is right. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "I shouldn't have to worry about what they think of me. ▽"
+          }
+        },
+        {
+          "text": {
+            "body": "There's nothing for me to prove. I don't need to pretend anymore. ▽"
+          }
+        },
+        { "auto": 2400 },
+
+        {}
+      ]
+    }
+  ]
+}

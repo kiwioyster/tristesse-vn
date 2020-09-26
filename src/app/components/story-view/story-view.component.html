@@ -1,0 +1,126 @@
+<h1 class="loading-header" *ngIf="!story">
+  Loading resource. Please wait.
+  {{ loadedImgs }} / {{ TOTAL_IMG }}
+</h1>
+<ng-container *ngIf="story">
+  <app-choice
+    *ngIf="story.state.choice"
+    [choices]="story.state.choice"
+    (onSelect)="selectedChoice($event)"
+  ></app-choice>
+  <ng-container *ngIf="!story.storyEnd">
+    <app-text-box [data]="story.state.text"></app-text-box>
+    <app-pc [data]="story.pcState" [story]="story"></app-pc>
+    <app-phone
+      [data]="story.phoneState"
+      [messenger]="story.messengerState"
+    ></app-phone>
+    <app-image [data]="{ bg: story.state.bg, fg: story.state.fg }"></app-image>
+  </ng-container>
+  <app-credits *ngIf="story.storyEnd"></app-credits>
+</ng-container>
+<img src="assets/Bedroom.png" style="display: none" (load)="imgLoaded()" />
+<img
+  src="assets/Bedroom-night.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img src="assets/Will-neutral.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/Will-smile.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/Office.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/Nightstreet.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/PCroom.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/PCroom-night.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/PC.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/Phone.png" style="display: none" (load)="imgLoaded()" />
+<img
+  src="assets/Tris-challenge.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img src="assets/Tris-crossed.png" style="display: none" (load)="imgLoaded()" />
+<img
+  src="assets/Tris-crossed-angry.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/Tris-crossed-v-angry.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/Tris-crossed-surprised.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img src="assets/Tris-gasp.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/Tris-neutral.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/Tris-smile.png" style="display: none" (load)="imgLoaded()" />
+<img
+  src="assets/Tris-smile-creepy.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/Tris-smile-eyes.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/app-icons/Facehook.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/app-icons/JobFinda.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/app-icons/Messenger.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/app-icons/Tmail.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img src="assets/social/beach.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/social/dp1.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/social/dp2.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/social/dp3.png" style="display: none" (load)="imgLoaded()" />
+<img src="assets/social/dp4.png" style="display: none" (load)="imgLoaded()" />
+<img
+  src="assets/social/large-group.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<img
+  src="assets/social/two-outdoor.png"
+  style="display: none"
+  (load)="imgLoaded()"
+/>
+<div *ngIf="story?.showIntroBg" class="animated-background">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>

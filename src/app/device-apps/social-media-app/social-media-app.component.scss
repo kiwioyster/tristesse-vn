@@ -1,0 +1,99 @@
+@import "src/variables.scss";
+
+.header {
+  display: grid;
+  grid-template-columns: 36px auto 36px;
+  background-color: $dark-blue;
+  width: 229px;
+  height: 30px;
+}
+mat-icon {
+  place-self: center;
+}
+.header-text {
+  padding: 4px 0;
+  font-size: 14px;
+  text-align: center;
+  place-self: center;
+  margin: 0;
+}
+.scrollable-feed {
+  background-color: $white;
+  height: 307px;
+  width: 230px;
+  cursor: grab;
+  pointer-events: auto !important;
+  &:active {
+    cursor: grabbing;
+  }
+}
+.feed-item {
+  box-sizing: border-box;
+  display: grid !important;
+  grid-template-columns: 30px auto;
+  grid-template-rows: 30px 16px 12px auto auto;
+  width: 215px;
+  background-color: $med-blue;
+  margin: 12px 6px;
+  padding: 6px;
+
+  &:nth-child(odd) {
+    .feed-body-bottom {
+      width: percentage((random(60) + 10) /100);
+    }
+    .feed-body-top {
+      width: percentage((random(15) + 85) /100);
+    }
+  }
+  &:nth-child(even) {
+    .feed-body-bottom {
+      width: percentage((random(60) + 10) /100);
+    }
+    .feed-body-top {
+      width: percentage((random(15) + 85) /100);
+    }
+  }
+  &:last-child {
+    margin-bottom: 24px;
+  }
+}
+* {
+  color: $white;
+}
+.feed-user-name {
+  font-size: 14px;
+  margin: 0 6px;
+  display: flex;
+  align-items: center;
+}
+.feed-profile-img {
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  background-color: $white;
+}
+.feed-body-top,
+.feed-body-bottom {
+  background-color: rgba($white, 0.5);
+  height: 8px;
+  grid-column: 1 / span 2;
+  align-self: end;
+}
+.feed-img {
+  grid-column: 1 / span 2;
+  margin-top: 8px;
+  width: 100%;
+}
+.feed-body-social {
+  font-size: 12px;
+  grid-row-start: end;
+  grid-column: 1/3;
+  display: flex;
+  margin-top: 3px;
+  mat-icon {
+    margin: 0 6px 0 3px;
+    font-size: 12px;
+    height: 12px;
+    width: 12px;
+  }
+}

@@ -1,0 +1,25 @@
+@import "src/variables.scss";
+
+.text-box {
+  @include img-center(408px);
+  z-index: 5;
+  width: 753px;
+  height: 170px;
+  background-color: rgba($dark-gray, 0.75);
+  color: $light-blue;
+  text-shadow: 1px 1px 6px $black;
+  padding: 18px 26px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+.speaker {
+  margin: 0;
+  margin-bottom: 12px;
+  font-size: 26px;
+  color: $accent-pink;
+}
+
+.text {
+  margin: 0;
+  font-size: 16px;
+}

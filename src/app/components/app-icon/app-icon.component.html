@@ -1,0 +1,10 @@
+<div
+  class="app-icon-ctn"
+  [ngClass]="{
+    'app-icon-ctn--mobile': !isPc
+  }"
+  (click)="clickApp(app)"
+>
+  <img class="app-icon-img" [src]="'assets/app-icons/' + app.name + '.png'" />
+  <p class="app-icon-title">{{ app.name }}</p>
+</div>
