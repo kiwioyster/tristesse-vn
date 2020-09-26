@@ -1643,7 +1643,7 @@ const storyData: StoryData = {
         },
         {
           text: {
-            body: "It's oddly soothing to hear someone's voice for once. ▽",
+            body: "It's oddly soothing to hear a real voice for once. ▽",
           },
         },
         {
@@ -2483,13 +2483,21 @@ const storyData: StoryData = {
         { fg: { path: '', effects: 'fade' }, auto: 2400 },
         {
           text: {
-            body: `There's nothing I can do. ▽`,
+            body: `I don't want it to be this way. ▽`,
           },
         },
         {
           text: {
-            body: `I'm too weak. ▽`,
+            body: `But I'm too weak. ▽`,
           },
+        },
+        {
+          text: {
+            body: `She is all my fears that I will be forever paralyzed by.▽`,
+          },
+        },
+        {
+          text: { body: `She is my comfort zone and I can never leave.▽` },
         },
         { bg: { path: '', effects: 'fade' }, auto: 1300 },
         {
@@ -2687,11 +2695,8 @@ const storyData: StoryData = {
         },
         {
           text: {
-            body: `She is all my fears that I will be forever paralyzed by.▽`,
+            body: `I cannot touch her or hold her. . . But she's closest thing to a friend or family I have left. ▽`,
           },
-        },
-        {
-          text: { body: `She is my comfort zone and I can never leave.▽` },
         },
         {
           bg: { path: '', effects: 'fade' },
