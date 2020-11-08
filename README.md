@@ -1,4 +1,4 @@
-[![Play Tristesse](https://img.shields.io/badge/Play-Tristesse%20VN-blue)](https://kiwioyster.itch.io/tristesse-vn)
+[![Play Tristesse](https://img.shields.io/badge/Play-Tristesse%20VN-e58c8a)](https://kiwioyster.itch.io/tristesse-vn)
 
 # Tristesse VN
 
